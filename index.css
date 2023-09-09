@@ -1,0 +1,48 @@
+body {
+    background-image: url("images/nature.jpg");
+    background-size: cover;
+    /* background-position: center center; */
+    margin: 100px auto;
+    
+    
+}
+.quote{
+    background: rgba(255, 255, 255, 0.9);
+    padding-top:28px;
+    padding-bottom: 15px;
+    width: 436px;
+    height:150px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+    border-radius: 10px;
+}
+#quote{
+    
+    font-weight: 400;
+    font-size: 20px;
+    padding-right: 23px;
+    padding-left: 33px;
+    
+}
+#author{
+    text-align: right;
+    font-weight: 600;
+    font-size: 18px;
+    padding-right: 28px;
+}
+#btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    padding: 7px 19px;
+    font-family: 'Inter', sans-serif;
+    background: rgba(0,0,0,0.5);
+    color:white;
+    border-radius: 5px;
+}
